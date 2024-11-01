@@ -14,5 +14,5 @@ const x = 1,
 
 for (let i=0; i < arr.length; i++) {
   
-  console.log(i);
+  console.log(arr[i]);
 }
