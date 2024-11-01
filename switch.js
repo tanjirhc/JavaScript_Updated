@@ -1,4 +1,4 @@
-const day = 4;
+const day = 0;
 
 switch (day) {
   case 0:
@@ -22,4 +22,6 @@ switch (day) {
   case 6:
     console.log('Saturday');
     break;
+  default:
+    throw new Error('Invalid Date');
 }
