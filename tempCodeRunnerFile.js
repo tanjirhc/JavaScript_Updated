@@ -1,6 +1,2 @@
-if(theme == 'dark') {
-//   bgColor = '##333333';
-// }
-// else {
-//   bgColor = '#efefef';
-// }
+console.log(arr.length);
+// console.log(arr);
