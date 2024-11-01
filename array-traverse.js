@@ -2,7 +2,7 @@
 ! Article: Traverse Array Elements
 */
 
-const arr = [88, 50, 40, 85, 98, 12, 55];
+const arr = [155, 50, 40, 85, 98, 5, 12, 55];
 const n = arr[3];
 const m = arr[2];
 const x = 1,
