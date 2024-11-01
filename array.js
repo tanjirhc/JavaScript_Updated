@@ -13,6 +13,7 @@ const names = [
   'Mamun Khan',
   'Shakib Al Hasan',
   'Rahim Khan',
+  'Mehedi Hasan',
 ];
 names[names.length] = 'Asif Khan';
 
