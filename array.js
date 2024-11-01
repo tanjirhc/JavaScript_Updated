@@ -13,5 +13,8 @@ const names = [
   'Mamun Khan',
   'Shakib Al Hasan',
 ];
+names[5] = 'Asif Khan';
 
 console.log(names.length);
+
+console.log(names);
