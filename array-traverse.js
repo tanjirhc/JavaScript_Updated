@@ -41,3 +41,12 @@ for (let i=1; i < arr.length; i++) {
   }
 }
 console.log("Largest Number is = " + largestNumber);
+
+// Find Lowest number
+let smallestNumber = arr[0];
+for (let i=1; i < arr.length; i++) {
+  if (arr[i] < smallestNumber) {
+    smallestNumber = arr[i];
+  }
+}
+console.log("Smallest Number is = " + smallestNumber);
