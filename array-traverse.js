@@ -2,7 +2,7 @@
 ! Article: Traverse Array Elements
 */
 
-const arr = [1, 2, 3, 4, 5, 6];
+const arr = [88, 50, 40, 85, 98, 12, 55];
 const n = arr[3];
 const m = arr[2];
 const x = 1,
@@ -32,3 +32,12 @@ for (let i=0; i < arr.length; i++) {
 }
 console.log(sum);
 console.log("Avg of Elements = " + (sum / arr.length));
+
+// Find Largest number
+let largestNumber = arr[0]
+for (let i=1; i < arr.length; i++) {
+  if (arr[i] > largestNumber) {
+    largestNumber = arr[i];
+  }
+}
+console.log("Largest Number is = " + largestNumber);
