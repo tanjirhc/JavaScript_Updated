@@ -3,4 +3,4 @@ function sayHello(name) {
 }
 
 const sayHi = sayHello;
-console.log(sayHi);
+sayHi('Stack Learner');
