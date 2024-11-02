@@ -14,5 +14,11 @@ arr2.fill(0);
 //console.log(arr2);
 
 const names = ['Nayem', 'Shegufta', 'Salvy'];
-names[0] = false;
-console.log(names);
+names[0] = 'HM Nayem';
+names[1] = 'Shegufta Taranjum'
+//console.log(names);
+
+// Fill array and Update
+const response = new Array(9);
+response.fill(undefined);
+console.log(response);
