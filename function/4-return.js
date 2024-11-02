@@ -1,7 +1,7 @@
 function sum(a, b) {
   const c = a + b;
-  console.log(c);
+  return c;
 }
 const r1 = sum(2, 3);
-console.log(r1);
-sum(50, 75);
+const r2 = sum(50, 75);
+console.log(r1, r2);
