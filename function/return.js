@@ -4,5 +4,4 @@ function returnIsEven() {
 
 }
 
-const isEven = returnIsEven();
-console.log(isEven(50));
+console.log(returnIsEven()(99));
