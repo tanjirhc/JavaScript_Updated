@@ -8,3 +8,4 @@ person1.lastName = 'Namyem'
 person1.email = 'hmnayem@gmail.com'
 
 console.log(person1);
+console.log(person1.email);
