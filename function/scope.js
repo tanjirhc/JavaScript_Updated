@@ -5,9 +5,10 @@ function outerFunction() {
 
   function innerFunction() {
     let innerVariable = 'Inner Value';
+    console.log(scopedVariable);
   }
 
-  console.log(innerVariable);
+  
 }
 
 outerFunction();
