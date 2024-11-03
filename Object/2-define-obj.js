@@ -9,3 +9,11 @@ person1.email = 'hmnayem@gmail.com'
 
 console.log(person1);
 console.log(person1.email);
+
+const person2 = {
+  firstName: 'Tanjir',
+  lastName: 'Hasan',
+  email: 'tanjirhc@gmail.com',
+};
+
+console.log(person2);
