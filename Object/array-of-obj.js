@@ -32,6 +32,7 @@ const people = [
   {
     name: 'Segufta Yesmin',
     email: 'segufta01@gmail.com',
+    friends: ['HM Nayem', 'Tanjir Hasan'],
   },
 ];
 
@@ -42,3 +43,5 @@ const people = [
 for (let p of people) {
   console.log(`${p.name} (${p.email})`);
 }
+
+console.log(people);
