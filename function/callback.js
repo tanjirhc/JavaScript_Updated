@@ -13,5 +13,5 @@ function toUpper(str, cb) {
 }
 
 toUpper('Stack Learner', (str) => {
-  console.log(str);
+  console.log('Hello', str.length);
 });
