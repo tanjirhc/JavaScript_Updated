@@ -20,3 +20,6 @@ person2.age = 15;
 person2.mobile = '01741441303';
 
 console.log(person2);
+
+delete person2.age;
+console.log(person2);
