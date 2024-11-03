@@ -15,5 +15,5 @@ const p3 = {
 
 const people = [p1, p2, p3];
 
-console.log(people[0]);
-console.log(people[1]);
+console.log(people[0].name);
+console.log(people[1].name);
