@@ -2,9 +2,13 @@
 // title.innerHTML = 'My custom Title changed by JavaScript';
 // console.log(title);
 
-const documents = document.getElementsByClassName('para');
+const paragraphs = document.getElementsByClassName('para');
 
 
-console.log(documents);
+//console.log(paragraphs);
+
+for (let v of paragraphs) {
+  console.log(v);
+}
 
 //console.log(document.getElementsByClassName('container'));
