@@ -23,3 +23,4 @@ console.log(person2);
 
 delete person2.age;
 console.log(person2.mobile);
+console.log(person2['firstName']);
