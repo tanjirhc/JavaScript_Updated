@@ -1,1 +1,1 @@
-console.log('I have been loaded');
+document.getElementById('title');
