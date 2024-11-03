@@ -8,7 +8,7 @@ const paragraphs = document.getElementsByClassName('para');
 //console.log(paragraphs);
 
 for (let v of paragraphs) {
-  console.log(v);
+  v.style.color = 'red';
 }
 
 //console.log(document.getElementsByClassName('container'));
