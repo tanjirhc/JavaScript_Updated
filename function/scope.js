@@ -8,7 +8,7 @@ function outerFunction() {
     console.log(scopedVariable);
   }
 
-  
+  innerFunction();
 }
 
 outerFunction();
