@@ -17,3 +17,4 @@ const person2 = {
 };
 
 console.log(person2);
+console.log(person2.email);
