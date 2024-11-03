@@ -16,5 +16,7 @@ const person2 = {
   email: 'tanjirhc@gmail.com',
 };
 person2.id = '1234';
+person2.age = 15;
+person2.mobile = '01741441303';
 
 console.log(person2);
