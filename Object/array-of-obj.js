@@ -35,5 +35,10 @@ const people = [
   },
 ];
 
-console.log(people[0].name);
-console.log(people[1].name);
+// console.log(people[0].name);
+// console.log(people[1].name);
+
+//loop
+for (let p of people) {
+  console.log(p);
+}
