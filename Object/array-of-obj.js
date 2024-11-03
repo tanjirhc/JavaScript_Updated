@@ -15,4 +15,4 @@ const p3 = {
 
 const people = [p1, p2, p3];
 
-console.log(people);
+console.log(people[0]);
