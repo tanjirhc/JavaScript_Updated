@@ -40,5 +40,5 @@ const people = [
 
 //loop
 for (let p of people) {
-  console.log(p);
+  console.log(`${p.name} (${p.email})`);
 }
