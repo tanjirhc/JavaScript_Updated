@@ -6,8 +6,15 @@ window.onload = function () {
 function main() {
   const btn = document.getElementById('click-btn');
   const title = document.getElementById('title');
+
+  let currentTitle = title.textContent;
+  let nextTitle = 'Changed DOM Element';
   
   btn.addEventListener('click', function (e) {
-    title.innerText = 'Changed DOM Element';
+    title.innerText = nextTitle;
+    const temp = currentTitle;
+    currentTitle = nextTitle;
+    nextTitle = temp;
+    
   });  
 }
