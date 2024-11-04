@@ -34,4 +34,9 @@ function main() {
   input.addEventListener('focus', function () {
     input.style.padding ='0.5rem 1rem';
   });
+
+  input.addEventListener('blur', function () {
+    input.style.padding ='0';
+  });
+  
 }
