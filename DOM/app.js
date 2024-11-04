@@ -38,5 +38,9 @@ function main() {
   input.addEventListener('blur', function () {
     input.style.padding ='0';
   });
+
+  input.addEventListener('keypress', function (e) {
+    console.log(e.target.value);
+  });
   
 }
