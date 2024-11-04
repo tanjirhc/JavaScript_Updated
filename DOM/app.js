@@ -40,7 +40,7 @@ function main() {
   });
 
   input.addEventListener('keyup', function (e) {
-    console.log(e.target.value);
+    output.innerText = e.target.value;
   });
   
 }
