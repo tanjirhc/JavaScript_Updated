@@ -15,13 +15,16 @@ function main() {
     const temp = currentTitle;
     currentTitle = nextTitle;
     nextTitle = temp;
+
+    title.classList.toggle('title1');
+    title.classList.toggle('title2');
     
-    if (title.classList.contains('title1')) {
-      title.classList.remove('title1');
-      title.classList.add('title2');
-    } else {
-      title.classList.remove('title2');
-      title.classList.add('title1');
-    }
+    // if (title.classList.contains('title1')) {
+    //   title.classList.remove('title1');
+    //   title.classList.add('title2');
+    // } else {
+    //   title.classList.remove('title2');
+    //   title.classList.add('title1');
+    // }
   });  
 }
