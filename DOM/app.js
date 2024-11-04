@@ -32,6 +32,6 @@ function main() {
 
 
   input.addEventListener('focus', function () {
-    input.style.width ='100%';
+    input.style.padding ='0.5rem 1rem';
   });
 }
