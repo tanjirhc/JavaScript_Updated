@@ -1,7 +1,7 @@
 
 window.onload = function () {
   main();
-}
+};
 
 function main() {
   const input = document.getElementById('input-name');
@@ -12,5 +12,6 @@ function main() {
     const li = document.createElement('li');
     li.innerText = 'Dummy Text';
     nameList.appendChild(li);
+    
   });
 }
