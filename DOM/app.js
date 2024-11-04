@@ -6,6 +6,8 @@ window.onload = function () {
 function main() {
   const btn = document.getElementById('click-btn');
   const title = document.getElementById('title');
+  const input = document.getElementById('input');
+  const output = document.getElementById('output');
 
   let currentTitle = title.textContent;
   let nextTitle = 'Changed DOM Element';
@@ -27,4 +29,9 @@ function main() {
     //   title.classList.add('title1');
     // }
   });  
+
+
+  input.addEventListener('focus', function () {
+    input.style.width ='100%';
+  });
 }
