@@ -12,9 +12,15 @@ function main() {
     
     if (input.value) {
       const li = document.createElement('li');
-      li.innerText = input.value;
-      nameList.appendChild(li);
-      input.value = '';
+      // li.innerText = input.value;
+      // nameList.appendChild(li);
+      // input.value = '';
+      li.setAttribute('title', 'List Title');
+
+      li.innerHTML = input.value;
+      li.addEventListener('click', function() {
+        li.remove();
+      });
     }
     
   });
