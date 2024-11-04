@@ -4,5 +4,8 @@ window.onload = function () {
 }
 
 function main() {
-  alert('Hello World')
+  const btn = document.getElementById('click-btn');
+  btn.onclick = function () {
+    alert('clicked');
+  }
 }
