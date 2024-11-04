@@ -16,5 +16,12 @@ function main() {
     currentTitle = nextTitle;
     nextTitle = temp;
     
+    if (title.classList.contains('title1')) {
+      title.classList.remove('title1');
+      title.classList.add('title2');
+    } else {
+      title.classList.remove('title2');
+      title.classList.add('title1');
+    }
   });  
 }
