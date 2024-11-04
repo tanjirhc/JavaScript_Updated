@@ -39,7 +39,7 @@ function main() {
     input.style.padding ='0';
   });
 
-  input.addEventListener('keypress', function (e) {
+  input.addEventListener('keyup', function (e) {
     console.log(e.target.value);
   });
   
