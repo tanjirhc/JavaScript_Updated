@@ -9,9 +9,13 @@ function main() {
   const nameList = document.getElementById('name-list');
 
   addBtn.addEventListener('click', function () {
-    const li = document.createElement('li');
-    li.innerText = 'Dummy Text';
-    nameList.appendChild(li);
+    
+    if (input.value) {
+      const li = document.createElement('li');
+      li.innerText = input.value;
+      nameList.appendChild(li);
+      input.value = '';
+    }
     
   });
 }
